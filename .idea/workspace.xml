@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36be726b-97a6-4e2a-a057-54ad413a685f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ANALISIS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/increase_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/increase_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/transactions_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jobs/sync_transaction_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/cliente.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cliente.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/cabecera_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/cabecera_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/cliente_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/cliente_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/descuento_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/descuento_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/footer_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/footer_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializers/transaccion_serializer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/transaccion_serializer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/transactions_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -68,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ANALISIS.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -76,6 +59,15 @@
                 <caret line="23" column="228" lean-forward="true" selection-start-line="23" selection-start-column="228" selection-end-line="23" selection-end-column="228" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -111,7 +103,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20191119000743_add_client_i_dto_all_models.rb" />
         <option value="$PROJECT_DIR$/app/controllers/prueba.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20191119035335_add_client_idto_client.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/schedule.yml" />
         <option value="$PROJECT_DIR$/app/jobs/sync_transaction_job.rb" />
@@ -153,6 +144,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20191121075754_add_unique_footer.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ANALISIS.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -416,12 +408,12 @@
       <workItem from="1574255772238" duration="21535000" />
       <workItem from="1574295792133" duration="9155000" />
       <workItem from="1574319759752" duration="6411000" />
-      <workItem from="1574327610049" duration="113000" />
+      <workItem from="1574327610049" duration="528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110512000" />
+    <option name="totallyTimeSpent" value="110927000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -669,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -738,6 +723,13 @@
             <caret line="23" column="228" lean-forward="true" selection-start-line="23" selection-start-column="228" selection-end-line="23" selection-end-column="228" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

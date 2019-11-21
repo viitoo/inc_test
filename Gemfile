@@ -14,11 +14,9 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'active_model_serializers'
 gem 'pg'
-gem 'rack-attack'
 gem 'faraday'
 gem 'sidekiq'
 gem 'sidekiq-cron'
-gem 'rack-cors'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
