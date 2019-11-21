@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20191120170112) do
+ActiveRecord::Schema.define(version: 20191121075754) do
 
   create_table "cabeceras", force: :cascade do |t|
     t.string "tipo_de_registro"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(version: 20191120170112) do
     t.string "cliente_codigo", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["fecha_de_pago", "cliente_codigo"], name: "index_footers_on_fecha_de_pago_and_cliente_codigo", unique: true
     t.index [nil], name: "index_footers_on_clientes"
   end
 
