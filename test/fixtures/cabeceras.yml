@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo_de_registro: MyString
+  id_pago: MyString
+  moneda: MyString
+  monto_total: MyString
+  total_con_descuentos: MyString
+
+two:
+  tipo_de_registro: MyString
+  id_pago: MyString
+  moneda: MyString
+  monto_total: MyString
+  total_con_descuentos: MyString
